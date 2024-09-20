@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-20T09:05:54 IST" name="Default suite" finished-at="2024-09-20T09:06:28 IST" duration-ms="33504">
+    <groups>
+    </groups>
+    <test started-at="2024-09-20T09:05:54 IST" name="Default test" finished-at="2024-09-20T09:06:28 IST" duration-ms="33504">
+      <class name="testscripts.regression.ValidateLoginUsingDataProvider">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:05:54 IST" name="setUp" finished-at="2024-09-20T09:05:59 IST" duration-ms="4785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:05:59 IST" name="validateLoginTest1" data-provider="getTestData" finished-at="2024-09-20T09:06:00 IST" duration-ms="848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reyaz0806]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reyaz123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adactin.com - Search Hotel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:00 IST" name="teardown" finished-at="2024-09-20T09:06:03 IST" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:03 IST" name="setUp" finished-at="2024-09-20T09:06:08 IST" duration-ms="5244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:08 IST" name="validateLoginTest1" data-provider="getTestData" finished-at="2024-09-20T09:06:09 IST" duration-ms="454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reyaz0806]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reyaz456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adactin.com - Hotel Reservation System]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:09 IST" name="teardown" finished-at="2024-09-20T09:06:12 IST" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:12 IST" name="setUp" finished-at="2024-09-20T09:06:16 IST" duration-ms="4097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:16 IST" name="validateLoginTest1" data-provider="getTestData" finished-at="2024-09-20T09:06:17 IST" duration-ms="516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reyaz1212]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reyaz123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adactin.com - Hotel Reservation System]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:17 IST" name="teardown" finished-at="2024-09-20T09:06:20 IST" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:20 IST" name="setUp" finished-at="2024-09-20T09:06:24 IST" duration-ms="4114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:24 IST" name="validateLoginTest1" data-provider="getTestData" finished-at="2024-09-20T09:06:24 IST" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reyaz1212]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reyaz456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adactin.com - Hotel Reservation System]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingDataProvider@18271936]" started-at="2024-09-20T09:06:24 IST" name="teardown" finished-at="2024-09-20T09:06:28 IST" duration-ms="3186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testscripts.regression.ValidateLoginUsingDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
