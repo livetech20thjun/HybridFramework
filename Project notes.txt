@@ -1,0 +1,63 @@
+***************************
+Frameworks
+****************************
+
+Data driven Framework
+
+
+src/main/java
+src/main/resources
+src/test/java
+		|
+		base
+			-BaseTest
+		|
+		testscripts
+			- regression
+			- smoke
+			- sprint
+		|
+		pages
+			-LoginPage
+			-Registration
+		|
+		utils
+			- UtilKit
+			- ExtentManger
+		|
+		listeners
+			_MyTestNGListener
+			
+			
+src/test/resources
+		|
+		testdata
+			|
+			excels
+				-MasterTestData.xlsx
+			|
+			jsons
+		|
+		Properties 
+			- config.properties
+			- locators.properties
+			
+			
+screenshots
+
+reports
+
+
+**************************************************
+Data Paramterization is TestNG
+
+DataProvider annotation
+
+@DataProvider
+public Object[][] getTestData()
+{
+
+
+return ;
+
+}
