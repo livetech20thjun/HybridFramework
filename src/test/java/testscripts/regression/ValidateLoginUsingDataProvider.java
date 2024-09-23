@@ -32,6 +32,7 @@ public class ValidateLoginUsingDataProvider extends BaseTest {
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 		driver.findElement(By.xpath("//input[@name='login']")).click();
 		Assert.assertEquals(driver.getTitle(), expTitle);
+		Assert.assertTrue(driver.findElement(By.xpath("//input[@id='username_show']")).isDisplayed());
 	}
 	
 	@DataProvider
