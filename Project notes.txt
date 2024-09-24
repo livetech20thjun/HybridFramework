@@ -61,3 +61,21 @@ public Object[][] getTestData()
 return ;
 
 }
+
+
+************************************************
+Keyword Driven Framework
+************************************************
+
+
+1	start browser	chrome	browser should get started                   ==> startBrowser()
+2	launch app	https://adactinhotelapp.com/	app should get launched  ==> launchApp
+3	"enter username in username                                          ==> type
+textbox"	reyaz0806	"username textbox should accpet the 
+text and display the same"
+4	"enter password in password 										 ==> type
+textbox"	reyaz123	"password textbox should accept the text
+and display as masked"
+5	click on button		login button should be clickable				 ==>click 
+			app should  navigate to "Serach Hotel" Page 				 ==> validateTitle
+
