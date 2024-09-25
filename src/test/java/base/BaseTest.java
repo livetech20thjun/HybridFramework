@@ -58,40 +58,10 @@ public class BaseTest {
 		
 	}
 	
+	@BeforeMethod
 	public void setUp()
 	{
-		try {
-			fis1=new FileInputStream("src\\test\\resources\\Properties\\config.properties");
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		configProp=new Properties();
-		
-		try {
-			configProp.load(fis1);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		try {
-			fis2=new FileInputStream("src\\test\\resources\\Properties\\locators.properties");
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		locatorsProp=new Properties();
-		
-		try {
-			locatorsProp.load(fis2);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
+				
 		String browserName=configProp.getProperty("browser");
 		
 		if(browserName.equalsIgnoreCase("chrome"))
@@ -118,7 +88,7 @@ public class BaseTest {
 	}
 	
 	
-	//@AfterMethod
+	@AfterMethod
 	public void teardown()
 	{
 		try {

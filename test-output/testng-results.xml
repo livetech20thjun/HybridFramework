@@ -2,20 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-24T08:58:42 IST" name="Default suite" finished-at="2024-09-24T08:58:51 IST" duration-ms="8368">
+  <suite started-at="2024-09-25T09:07:02 IST" name="Default suite" finished-at="2024-09-25T09:07:20 IST" duration-ms="18356">
     <groups>
     </groups>
-    <test started-at="2024-09-24T08:58:42 IST" name="Default test" finished-at="2024-09-24T08:58:51 IST" duration-ms="8368">
-      <class name="testscripts.regression.ValidateLoginUsingKeywords">
-        <test-method is-config="true" signature="setUpProps()[pri:0, instance:testscripts.regression.ValidateLoginUsingKeywords@2cb4893b]" started-at="2024-09-24T08:58:42 IST" name="setUpProps" finished-at="2024-09-24T08:58:42 IST" duration-ms="14" status="PASS">
+    <test started-at="2024-09-25T09:07:02 IST" name="Default test" finished-at="2024-09-25T09:07:20 IST" duration-ms="18356">
+      <class name="testscripts.regression.ToVerifyWhetherthedatadisplayedissameastheselecteddatainBookhotelpage">
+        <test-method is-config="true" signature="setUpProps()[pri:0, instance:testscripts.regression.ToVerifyWhetherthedatadisplayedissameastheselecteddatainBookhotelpage@7c137fd5]" started-at="2024-09-25T09:07:02 IST" name="setUpProps" finished-at="2024-09-25T09:07:02 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpProps -->
-        <test-method signature="validateLoginTest()[pri:0, instance:testscripts.regression.ValidateLoginUsingKeywords@2cb4893b]" started-at="2024-09-24T08:58:42 IST" name="validateLoginTest" finished-at="2024-09-24T08:58:51 IST" duration-ms="8304" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.regression.ToVerifyWhetherthedatadisplayedissameastheselecteddatainBookhotelpage@7c137fd5]" started-at="2024-09-25T09:07:03 IST" name="setUp" finished-at="2024-09-25T09:07:07 IST" duration-ms="4082" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginTest -->
-      </class> <!-- testscripts.regression.ValidateLoginUsingKeywords -->
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDataDiplayed(java.util.HashMap)[pri:0, instance:testscripts.regression.ToVerifyWhetherthedatadisplayedissameastheselecteddatainBookhotelpage@7c137fd5]" started-at="2024-09-25T09:07:07 IST" name="validateDataDiplayed" data-provider="getData" finished-at="2024-09-25T09:07:17 IST" duration-ms="10197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=reyaz123, Check In Date=27/09/2024, expected Title=Adactin.com - Search Hotel, hotel=Hotel Creek, location=Sydney, username=reyaz0806}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDataDiplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ToVerifyWhetherthedatadisplayedissameastheselecteddatainBookhotelpage@7c137fd5]" started-at="2024-09-25T09:07:17 IST" name="teardown" finished-at="2024-09-25T09:07:20 IST" duration-ms="3311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testscripts.regression.ToVerifyWhetherthedatadisplayedissameastheselecteddatainBookhotelpage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
