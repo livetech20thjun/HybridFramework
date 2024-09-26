@@ -105,3 +105,21 @@ hybrid
 Project 4 
 hybrid (POM +TestNG)
 ************************************************
+
+
+*********************************************
+Extent Reports 
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
+
+
+ExtentReports
+ExtentTest
+ExtentSparkReporter
+
+https://jenkov.com/tutorials/java-internationalization/simpledateformat.html

@@ -10,9 +10,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
+import utils.ExtentManager;
 
 public class BaseTest {
 	
@@ -21,6 +28,10 @@ public class BaseTest {
 	public static Properties configProp;
 	public static FileInputStream fis2;
 	public static Properties locatorsProp;
+	public static ExtentReports reports;
+	public static ExtentTest test;
+	
+	
 	@BeforeTest
 	public void setUpProps()
 	{
@@ -56,30 +67,44 @@ public class BaseTest {
 			e.printStackTrace();
 		}
 		
+		reports=ExtentManager.getReports();
+		
+	}
+	
+	@AfterTest
+	public void closeReports()
+	{
+		reports.flush();
 	}
 	
 	@BeforeMethod
-	public void setUp()
+	public void setUp(ITestContext context)
 	{
 				
+		test=reports.createTest(context.getCurrentXmlTest().getClasses().get(0).getName());
+		
 		String browserName=configProp.getProperty("browser");
 		
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
 			driver=new ChromeDriver();
+			test.info("chrome browser started..");
 		}
 		else if(browserName.equalsIgnoreCase("firefox"))
 		{
 			driver=new FirefoxDriver();
+			test.info("firefox browser started..");
 		}
 		else if(browserName.equalsIgnoreCase("edge"))
 		{
 			driver=new EdgeDriver();
+			test.info("edge browser started..");
 		}
 		
 		// to launch app 
 		
 		driver.get(configProp.getProperty("url"));
+		test.info("app launched using url "+configProp.getProperty("url"));
 		
 		driver.manage().window().maximize();
 		
@@ -99,6 +124,7 @@ public class BaseTest {
 		}
 		
 		driver.quit();
+		test.info("browser closed...");
 	}
 
 }
