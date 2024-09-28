@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<listeners>
+<listener class-name="listeners.MyTestNGListener"></listener>
+</listeners>
   <test thread-count="5" name="Test" >
     <classes>
-      <class name="testscripts.regression.ValidateLoginUsingKeywords"/>
-      <class name="testscripts.regression.ValidateLoginPOMandDataProvider"/>
-      <class name="testscripts.regression.ValidateLoginUsingDataProvider"/>
-      <class name="testscripts.regression.ValidateLoginUsingHybrid"/>
-      <class name="testscripts.regression.ValidateLoginPOM"/>
-      <class name="testscripts.regression.ValidateLogin"/>
-      <class name="testscripts.regression.ValidateLoginUsingDataProviderExcel"/>
-    </classes>
+           <class name="testscripts.regression.ValidateLoginPOMandDataProvider"/>
+     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
